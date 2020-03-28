@@ -16,10 +16,13 @@ public class Temperatura implements Serializable {
 	private Double tempMin;
 	private Double tempMax;
 	private String descricao;
+<<<<<<< HEAD
 	private int umidade;
 	private String dataHora;
 	private String latitude;
 	private String longitude;
+=======
+>>>>>>> d31927fb551c206c02b6c5de1890931dd1eb1a6b
 	
 	
 	public Long getId() {
@@ -52,6 +55,7 @@ public class Temperatura implements Serializable {
 	public void setDescricao(String descricao) {
 		this.descricao = descricao;
 	}
+<<<<<<< HEAD
 	public int getUmidade() {
 		return umidade;
 	}
@@ -76,4 +80,6 @@ public class Temperatura implements Serializable {
 	public void setLongitude(String longitude) {
 		this.longitude = longitude;
 	}
+=======
+>>>>>>> d31927fb551c206c02b6c5de1890931dd1eb1a6b
 }
